@@ -1,4 +1,4 @@
-import { BrowserRouter, Switch, Route, NavLink } from "react-router-dom";
+import { BrowserRouter, Switch, Route} from "react-router-dom";
 import Home from "./Home";
 import Navbar from "./Navbar";
 import Order from "./Order";
