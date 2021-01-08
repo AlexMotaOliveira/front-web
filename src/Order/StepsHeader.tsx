@@ -3,8 +3,9 @@ function StepsHeader(){
       <header className="orders-steps-container">
         <div className="order-steps-content">
           <h1 className="steps-title">
-            SIGA AS ETAPAS
+            SIGA AS <br/>ETAPAS
           </h1>
+          </div>
           <ul className="steps-items">
             <li>
               <span className="steps-number">1</span>
@@ -15,7 +16,6 @@ function StepsHeader(){
               Depois clique em <strong>"ENVIAR PEDIDO"</strong>
             </li>
           </ul>
-        </div>
       </header>
     )
 }
