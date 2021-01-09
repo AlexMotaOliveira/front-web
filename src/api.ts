@@ -1,6 +1,8 @@
 import axios from "axios";
 import { OrderPayLoad } from "./Order/types";
-axios.defaults.headers.Allow['Access-Control-Allow-Origin'] = '*';
+axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*';
+axios.defaults.headers.get['Access-Control-Allow-Origin'] = '*';
+axios.defaults.headers.put['Access-Control-Allow-Origin'] = '*';
 
 
 const API_URL = process.env.REACT_APP_API_URL
