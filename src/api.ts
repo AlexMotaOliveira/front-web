@@ -1,7 +1,10 @@
 import axios from "axios";
 import { OrderPayLoad } from "./Order/types";
-axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*';
+axios.defaults.headers.get['Content-Type'] ='application/json;charset=utf-8';
 axios.defaults.headers.get['Access-Control-Allow-Origin'] = '*';
+axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*';
+axios.defaults.headers.post['Content-Type'] ='application/json;charset=utf-8';
+axios.defaults.headers.put['Content-Type'] ='application/json;charset=utf-8';
 axios.defaults.headers.put['Access-Control-Allow-Origin'] = '*';
 
 
